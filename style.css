@@ -1,11 +1,13 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: border-box;
 }
 
 body {
     background-color: #121212;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -172,11 +174,11 @@ body {
 }
 
 .sidepanel {
-    width: 50px;
+    width: 300px;
     height: calc(100vh - 60px);
     position: fixed;
     left: 0px;
-    min-height: 800;
+    min-height: 800px;
     display: flex;
     flex-direction: column;
 }
@@ -184,24 +186,25 @@ body {
 .sidepanel-top{
     margin-top: 30px;
     height: 45px;
-    width: 100px;
+    width: 100%;
     display:flex;
     justify-content: space-between;
     align-items: center;
     color:#ffffff;
     font-size: 20px;
     font-weight: 600;
+    padding: 0 20px;
 }
 
 .sidepanel-top-logos{
     height: 45px;
-    width: 100px;
+    width: auto;
     display:flex;
     justify-content: space-between;
     align-items: center;
     color:#b3b3b3;
     font-size: 20px;
-    margin-left: 150px;
+    margin-left: 0;
     gap: 20px;
 }
 .sidepanel-top-logobox{
@@ -333,7 +336,7 @@ body {
 }
 .content-area {
     margin-left: 310px;
-    width: 100%;
+    width: calc(100% - 310px);
     padding: 20px;
 }
 
@@ -346,7 +349,7 @@ body {
 
 .temp {
     min-height: 200vh;
-    width: 100%;
+    width: calc(100% - 20px);
     max-width: 1160px;
     background-color: #202020;
     border-radius: 10px;
@@ -542,9 +545,8 @@ body {
 
 .bottompanel-mid {
     height: 70%;
-    width: 50%;
+    flex: 1;
     background-color: black;
-    margin-right: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -597,7 +599,7 @@ body {
 
 .bottompanel-righticons {
     height: 40px;
-    width: 50px;
+    width: auto;
     margin-right: 30px;
     background-color: black;
     display: flex;
@@ -615,7 +617,6 @@ body {
     height: 5px;
     width: 100px;
     background-color: black;
-    padding-right: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
