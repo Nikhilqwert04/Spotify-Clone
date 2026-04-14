@@ -183,31 +183,32 @@ body {
     flex-direction: column;
 }
 
-.sidepanel-top{
+.sidepanel-top {
     margin-top: 30px;
     height: 45px;
     width: 100%;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    color:#ffffff;
+    color: #ffffff;
     font-size: 20px;
     font-weight: 600;
     padding: 0 20px;
 }
 
-.sidepanel-top-logos{
+.sidepanel-top-logos {
     height: 45px;
     width: auto;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    color:#b3b3b3;
+    color: #b3b3b3;
     font-size: 20px;
     margin-left: 0;
     gap: 20px;
 }
-.sidepanel-top-logobox{
+
+.sidepanel-top-logobox {
     height: 40px;
     width: 40px;
     background-color: #1f1f1f;
@@ -217,7 +218,7 @@ body {
     align-items: center;
 }
 
-.sidepanel-mid1{
+.sidepanel-mid1 {
     height: 30px;
     width: 70px;
     background-color: #1f1f1f;
@@ -228,13 +229,15 @@ body {
     margin-left: 15px;
     margin-top: 10px;
 }
-.sidepanel-mid1 p{
+
+.sidepanel-mid1 p {
     padding-bottom: 3px;
     color: white;
     font-size: 17px;
     font-weight: 400;
 }
-.sidepanel-mid2{
+
+.sidepanel-mid2 {
     height: 30px;
     width: 300px;
     display: flex;
@@ -244,11 +247,13 @@ body {
     margin-top: 10px;
     margin-top: 15px;
 }
-.sidepanel-mid2 i{
+
+.sidepanel-mid2 i {
     color: #898989;
     font-size: 1rem;
 }
-.sidepanel-mid2-box{
+
+.sidepanel-mid2-box {
     font-weight: 700;
     font-size: 14px;
     color: #898989;
@@ -258,7 +263,8 @@ body {
     align-items: center;
     gap: 10px;
 }
-.artistbox{
+
+.artistbox {
     margin-top: 10px;
     margin-left: 10px;
     height: 385px;
@@ -266,74 +272,83 @@ body {
     display: flex;
     flex-direction: column;
 }
-.artistbox-1{
+
+.artistbox-1 {
     height: 70px;
     width: 290px;
     padding-left: 10px;
     display: flex;
-    justify-content: flex-start ;
+    justify-content: flex-start;
     align-items: center;
     gap: 15px;
 }
-.artist1-pic{
+
+.artist1-pic {
     height: 50px;
-    width: 50px;    
+    width: 50px;
     border-radius: 50%;
     background-image: url('ar1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
-.artistbox-2{
+
+.artistbox-2 {
     height: 70px;
     width: 290px;
     padding-left: 10px;
     display: flex;
-    justify-content: flex-start ;
+    justify-content: flex-start;
     align-items: center;
     gap: 15px;
 }
-.artist2-pic{
+
+.artist2-pic {
     height: 50px;
-    width: 50px;    
+    width: 50px;
     border-radius: 50%;
     background-image: url('ar2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
-.artistbox-3{
+
+.artistbox-3 {
     height: 70px;
     width: 290px;
     padding-left: 10px;
     display: flex;
-    justify-content: flex-start ;
+    justify-content: flex-start;
     align-items: center;
     gap: 15px;
 }
-.artist3-pic{
+
+.artist3-pic {
     height: 50px;
-    width: 50px;    
+    width: 50px;
     border-radius: 50%;
     background-image: url('ar3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
-.artistbox-4{
+
+.artistbox-4 {
     height: 70px;
     width: 290px;
     padding-left: 10px;
     display: flex;
-    justify-content: flex-start ;
+    justify-content: flex-start;
     align-items: center;
     gap: 15px;
 }
-.artist4-pic{
+
+.artist4-pic {
     height: 50px;
-    width: 50px;    
+    width: 50px;
     border-radius: 50%;
     background-image: url('ar4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .content-area {
     margin-left: 310px;
     width: calc(100% - 310px);
@@ -349,14 +364,13 @@ body {
 
 .temp {
     min-height: 200vh;
-    width: calc(100% - 20px);
-    max-width: 1160px;
+    width: 100%;
     background-color: #202020;
     border-radius: 10px;
     margin-left: 10px;
 }
 
-.temp-top{
+.temp-top {
     height: 40px;
     width: 400px;
     display: flex;
@@ -366,7 +380,8 @@ body {
     padding-left: 40px;
     padding-top: 15px;
 }
-.temp-top1{
+
+.temp-top1 {
     height: 30px;
     width: 40px;
     border-radius: 19px;
@@ -379,7 +394,8 @@ body {
     font-weight: 500;
     font-size: 14px;
 }
-.temp-top2{
+
+.temp-top2 {
     height: 30px;
     width: 60px;
     border-radius: 19px;
@@ -392,7 +408,8 @@ body {
     font-weight: 500;
     font-size: 14px;
 }
-.temp-top3{
+
+.temp-top3 {
     height: 30px;
     width: 75px;
     border-radius: 19px;
@@ -405,7 +422,8 @@ body {
     font-weight: 500;
     font-size: 14px;
 }
-.content-headline1{
+
+.content-headline1 {
     width: 200px;
     font-size: 27px;
     color: white;
@@ -416,88 +434,97 @@ body {
     display: flex;
     flex-direction: column;
 }
-.songdetails{
+
+.songdetails {
     background-color: #ff6437;
-    height: 250px;  
+    height: 250px;
     width: 100%;
     padding-left: 10px;
     display: flex;
-    justify-content: flex-start ;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
     gap: 15px;
 }
-.artistbox1{
+
+.artistbox1 {
     background-color: aqua;
     height: 240px;
     width: 180px;
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 4px;
     border-radius: 5px;
 }
-.artistphoto1{
+
+.artistphoto1 {
     height: 180px;
-    width: 170px;    
+    width: 170px;
     border-radius: 5px;
     background-image: url('pic2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
-.artistbox2{
+
+.artistbox2 {
     background-color: aqua;
     height: 240px;
     width: 190px;
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 4px;
     border-radius: 5px;
 }
-.artistphoto2{
+
+.artistphoto2 {
     height: 180px;
-    width: 170px;    
+    width: 170px;
     border-radius: 5px;
     background-image: url('pic2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
-.artistbox3{
+
+.artistbox3 {
     background-color: aqua;
     height: 240px;
     width: 190px;
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 4px;
     border-radius: 5px;
 }
-.artistphoto3{
+
+.artistphoto3 {
     height: 180px;
-    width: 170px;    
+    width: 170px;
     border-radius: 5px;
     background-image: url('pic2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
-.artistbox4{
+
+.artistbox4 {
     background-color: aqua;
     height: 240px;
     width: 190px;
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 4px;
     border-radius: 5px;
 }
-.artistphoto4{
+
+.artistphoto4 {
     height: 180px;
-    width: 170px;    
+    width: 170px;
     border-radius: 5px;
     background-image: url('pic2.jpg');
     background-size: cover;
