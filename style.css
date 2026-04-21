@@ -424,7 +424,7 @@ body {
 }
 
 .content-headline1 {
-    width: 200px;
+    width: 90%;
     font-size: 27px;
     color: white;
     font-weight: 700;
@@ -445,6 +445,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 15px;
+    overflow: hidden;
 }
 
 .artistbox1 {
@@ -523,6 +524,26 @@ body {
 }
 
 .artistphoto4 {
+    height: 180px;
+    width: 170px;
+    border-radius: 5px;
+    background-image: url('pic2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.artistbox5 {
+    background-color: aqua;
+    height: 240px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    border-radius: 5px;
+}
+
+.artistphoto5 {
     height: 180px;
     width: 170px;
     border-radius: 5px;
