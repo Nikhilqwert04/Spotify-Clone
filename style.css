@@ -445,7 +445,6 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 15px;
-    overflow: hidden;
 }
 
 .artistbox1 {
@@ -559,6 +558,10 @@ body {
 
     .content-area {
         margin-left: 0px;
+    }
+
+    .temp{
+        width: 710px;
     }
 }
 
