@@ -444,7 +444,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 14px;
 }
 
 .artistbox1 {
@@ -530,6 +530,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .artistbox5 {
     background-color: aqua;
     height: 240px;
@@ -560,7 +561,7 @@ body {
         margin-left: 0px;
     }
 
-    .temp{
+    .temp {
         width: 710px;
     }
 }
