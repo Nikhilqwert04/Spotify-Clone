@@ -7,7 +7,6 @@
 
 body {
     background-color: #121212;
-    overflow-x: hidden;
 }
 
 .navbar {
@@ -79,8 +78,8 @@ body {
     align-items: center;
     padding: 0px 10px;
     gap: 2px;
-    margin-left: 10px;
     margin-right: 80px;
+    margin-left: 40px;
 }
 
 .navbar-end {
@@ -161,6 +160,11 @@ body {
     }
 
     .usericon {
+        display: none;
+    }
+}
+@media screen and (max-width:1321px){
+    .homebox{
         display: none;
     }
 }
@@ -357,17 +361,21 @@ body {
 
 .main-content {
     background-color: #121212;
-    /* Spotify dark */
     color: white;
     min-height: 100vh;
 }
 
 .temp {
-    min-height: 200vh;
+    min-height: auto;
     width: 100%;
     background-color: #202020;
     border-radius: 10px;
     margin-left: 10px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 .temp-top {
@@ -436,19 +444,20 @@ body {
 }
 
 .songdetails {
-    background-color: #ff6437;
     height: 250px;
     width: 100%;
     padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
+    overflow: hidden;
     gap: 14px;
 }
 
 .artistbox1 {
-    background-color: aqua;
     height: 240px;
     width: 180px;
     display: flex;
@@ -469,7 +478,6 @@ body {
 }
 
 .artistbox2 {
-    background-color: aqua;
     height: 240px;
     width: 190px;
     display: flex;
@@ -490,7 +498,6 @@ body {
 }
 
 .artistbox3 {
-    background-color: aqua;
     height: 240px;
     width: 190px;
     display: flex;
@@ -511,7 +518,6 @@ body {
 }
 
 .artistbox4 {
-    background-color: aqua;
     height: 240px;
     width: 190px;
     display: flex;
@@ -532,7 +538,6 @@ body {
 }
 
 .artistbox5 {
-    background-color: aqua;
     height: 240px;
     width: 190px;
     display: flex;
@@ -552,6 +557,7 @@ body {
     background-repeat: no-repeat;
 }
 
+
 @media screen and (max-width: 900px) {
     .sidepanel {
         display: none;
@@ -562,7 +568,11 @@ body {
     }
 
     .temp {
-        width: 710px;
+        width: 87vw;
+    }
+
+    .searchbar {
+        margin-left: 50px;
     }
 }
 
@@ -682,6 +692,6 @@ body {
     }
 
     .bottompanel-mid {
-        margin-left: 60px;
+        margin-right: 160px;
     }
 }
