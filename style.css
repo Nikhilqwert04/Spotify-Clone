@@ -163,8 +163,9 @@ body {
         display: none;
     }
 }
-@media screen and (max-width:1321px){
-    .homebox{
+
+@media screen and (max-width:1321px) {
+    .homebox {
         display: none;
     }
 }
@@ -269,7 +270,7 @@ body {
 }
 
 .artistbox {
-    margin-top: 10px;
+    margin-top: 9px;
     margin-left: 10px;
     height: 385px;
     width: 290px;
